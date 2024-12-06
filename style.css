@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+header .container .header-top{
+display: flex;
+justify-content: space-between;
+}
+.container nav a{
+    text-decoration: none;
+}
+.header-bottom .logo{
+    display: flex;
+}
+.header-bottom{
+   margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom .logo a{
+    margin: 20px;
+}
+.header-bottom nav{
+    display: flex;
+ 
+}
+.header-bottom nav .search{
+    background-color:blue;
+height: 20px;
+padding: 20px;
+border-radius: 50%;
+}
+.header-bottom nav .search i{
+    color: white;
+}
+.header-bottom nav a{
+    padding: 10px;
+    color: black;
+    padding: 30px;
+}
+.header-bottom .logo{
+    padding: 30px;
+}
+.prof .container .row {
+    
+    display: flex;
+}
+.prof .container .row .col-4 .card{
+    width: 250px;
+    height: 150px;
+    border: 1px solid gray;
+    margin: 80px;
+   
+    justify-content: flex-end;
+}
+.prof .container .row .col-4 .card a{
+    text-decoration: none;
+    color: black;
+ line-height: 10vh;
+ padding: 30px;
+ 
+}
+.prof .container .row .col-4 .card p{
+    color: gray;
+    padding: 10px;
+}
